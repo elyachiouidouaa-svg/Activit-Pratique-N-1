@@ -29,13 +29,19 @@
 ### Versions traitées : 
 #### Nous avons appliqué cette méthode sur deux versions du TP :
 ### 1-Version de la base de données:
-### La classe métier reçoit une instance de DaoImpl créée dynamiquement selon la configuration définie dans le fichier config.txt.
+#### La classe métier reçoit une instance de DaoImpl créée dynamiquement selon la configuration définie dans le fichier config.txt.
 
 <img width="959" height="473" alt="image" src="https://github.com/user-attachments/assets/f24370f7-ec6a-45f3-a74e-3548db4382b8" />
 
 ### 2-Version du service web:
-### La classe métier reçoit une instance de ext.DoaImpl2 créée dynamiquement, également déterminée par config.txt.
+#### La classe métier reçoit une instance de ext.DoaImpl2 créée dynamiquement, également déterminée par config.txt.
 <img width="959" height="472" alt="image" src="https://github.com/user-attachments/assets/12e15c94-7819-4f19-bed0-ebdc459dfa87" />
+
+### Résultats obtenus
+#### Version base de données : le programme affiche correctement le résultat de calcul() en utilisant l’implémentation dynamique liée à la base de données.
+#### Version web service : le programme affiche correctement le résultat de calcul() en utilisant l’implémentation dynamique du service web.
+#### Ces tests confirment que l’injection dynamique fonctionne correctement et que le code est désormais plus modulable et facile à adapter, sans avoir à modifier les classes métiers.
+
 
 
 
