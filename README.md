@@ -5,7 +5,7 @@
 #### Dans cette première partie du TP, nous avons étudié l’injection de dépendances en utilisant l’instanciation statique. L’idée est de comprendre comment une classe peut utiliser les services d’une autre classe en créant directement ses dépendances dans le code.
 #### Explication : L’injection de dépendances permet de découpler les différentes parties d’une application. Ici, avec l’instanciation statique : Les objets nécessaires sont créés avec new et fournis aux classes qui en ont besoin. Cela fonctionne bien pour de petits projets ou pour apprendre le concept.
 
- #### Versions traitées : 
+ ### Versions traitées : 
  #### Dans ce TP, nous avons appliqué l’injection de dépendances à deux versions :
  ### 1-Version de la base de données: 
  #### Les dépendances liées à la gestion des données sont injectées directement dans les classes métiers.
@@ -26,6 +26,7 @@
 
 ### 2-Version du service web:
 <img width="959" height="472" alt="image" src="https://github.com/user-attachments/assets/12e15c94-7819-4f19-bed0-ebdc459dfa87" />
+
 
 
 
