@@ -36,6 +36,7 @@
 
 ### 2-Version du service web:
 #### La classe métier reçoit une instance de ext.DoaImpl2 créée dynamiquement, également déterminée par config.txt.
+
 <img width="959" height="472" alt="image" src="https://github.com/user-attachments/assets/12e15c94-7819-4f19-bed0-ebdc459dfa87" />
 
 ### Résultats obtenus
@@ -45,18 +46,20 @@
 
 ## vidéo 2
 ### Partie 3 : Injection avec Spring (fichier XML)
-### Dans cette section, la création et la gestion des objets sont entièrement prises en charge par le conteneur Spring, à travers le fichier applicationContext.xml. C’est à ce stade que l’on met véritablement en œuvre le principe d’inversion de contrôle (IoC), où le framework se charge de l’instanciation et de l’injection des dépendances à la place du développeur.
-#### Classe concernée : PresentationSpringXML.java
+#### Dans cette section, la création et la gestion des objets sont entièrement prises en charge par le conteneur Spring, à travers le fichier applicationContext.xml. C’est à ce stade que l’on met véritablement en œuvre le principe d’inversion de contrôle (IoC), où le framework se charge de l’instanciation et de l’injection des dépendances à la place du développeur.
+
+<img width="959" height="455" alt="image" src="https://github.com/user-attachments/assets/ea30113b-d29d-4f90-b678-1e49bbe957e6" />
 
 
 ### Partie 4 : Injection avec Spring (Annotations)
 #### Enfin, l’injection des dépendances est effectuée à l’aide des annotations Spring telles que @Component et @Autowired. Cette approche, à la fois moderne, lisible et largement adoptée dans les projets professionnels, simplifie considérablement la configuration et renforce la maintenabilité du code.
-#### Classe concernée : PresentationSpringAnnotation.java
 
+<img width="958" height="444" alt="image" src="https://github.com/user-attachments/assets/691686a5-756c-4349-b534-35da347afdf8" />
 
 ##  Conclusion
 #### Ce TP illustre de manière concrète la transition d’un code fortement couplé vers une architecture souple, modulaire et maintenable grâce au framework Spring.
 #### L’injection de dépendances y joue un rôle central : elle favorise la réutilisation du code, simplifie la maintenance, et confère au développement une structure claire, évolutive et professionnelle. De plus, cette approche encourage une meilleure séparation des responsabilités, rendant les applications plus flexibles et faciles à faire évoluer.
+
 
 
 
