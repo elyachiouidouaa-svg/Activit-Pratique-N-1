@@ -44,6 +44,19 @@
 #### Ces tests confirment que l’injection dynamique fonctionne correctement et que le code est désormais plus modulable et facile à adapter, sans avoir à modifier les classes métiers.
 
 ## vidéo 2
+### Partie 3 : Injection avec Spring (fichier XML)
+### Dans cette section, la création et la gestion des objets sont entièrement prises en charge par le conteneur Spring, à travers le fichier applicationContext.xml. C’est à ce stade que l’on met véritablement en œuvre le principe d’inversion de contrôle (IoC), où le framework se charge de l’instanciation et de l’injection des dépendances à la place du développeur.
+#### Classe concernée : PresentationSpringXML.java
+
+
+### Partie 4 : Injection avec Spring (Annotations)
+#### Enfin, l’injection des dépendances est effectuée à l’aide des annotations Spring telles que @Component et @Autowired. Cette approche, à la fois moderne, lisible et largement adoptée dans les projets professionnels, simplifie considérablement la configuration et renforce la maintenabilité du code.
+#### Classe concernée : PresentationSpringAnnotation.java
+
+
+##  Conclusion
+#### Ce TP illustre de manière concrète la transition d’un code fortement couplé vers une architecture souple, modulaire et maintenable grâce au framework Spring.
+#### L’injection de dépendances y joue un rôle central : elle favorise la réutilisation du code, simplifie la maintenance, et confère au développement une structure claire, évolutive et professionnelle. De plus, cette approche encourage une meilleure séparation des responsabilités, rendant les applications plus flexibles et faciles à faire évoluer.
 
 
 
