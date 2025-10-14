@@ -1,4 +1,5 @@
 ﻿# Compte rendu de la première partie du TP : Gestion des dépendances
+## Vidéo 1
 ## Résultats de l’exécution :
 ### Partie 1 : Injection de dépendances par instanciation statique
 
@@ -41,6 +42,10 @@
 #### Version base de données : le programme affiche correctement le résultat de calcul() en utilisant l’implémentation dynamique liée à la base de données.
 #### Version web service : le programme affiche correctement le résultat de calcul() en utilisant l’implémentation dynamique du service web.
 #### Ces tests confirment que l’injection dynamique fonctionne correctement et que le code est désormais plus modulable et facile à adapter, sans avoir à modifier les classes métiers.
+
+## vidéo 2
+
+
 
 
 
