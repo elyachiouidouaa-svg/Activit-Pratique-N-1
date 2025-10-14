@@ -46,7 +46,7 @@
 
 ## vidéo 2
 ### Partie 3 : Injection avec Spring (fichier XML)
-#### Dans cette section, la création et la gestion des objets sont entièrement prises en charge par le conteneur Spring, à travers le fichier applicationContext.xml. C’est à ce stade que l’on met véritablement en œuvre le principe d’inversion de contrôle (IoC), où le framework se charge de l’instanciation et de l’injection des dépendances à la place du développeur.
+#### Dans cette section, la création et la gestion des objets sont entièrement prises en charge par le conteneur Spring. C’est à ce stade que l’on met véritablement en œuvre le principe d’inversion de contrôle (IoC), où le framework se charge de l’instanciation et de l’injection des dépendances à la place du développeur.
 
 <img width="959" height="455" alt="image" src="https://github.com/user-attachments/assets/ea30113b-d29d-4f90-b678-1e49bbe957e6" />
 
@@ -59,6 +59,7 @@
 ##  Conclusion
 #### Ce TP illustre de manière concrète la transition d’un code fortement couplé vers une architecture souple, modulaire et maintenable grâce au framework Spring.
 #### L’injection de dépendances y joue un rôle central : elle favorise la réutilisation du code, simplifie la maintenance, et confère au développement une structure claire, évolutive et professionnelle. De plus, cette approche encourage une meilleure séparation des responsabilités, rendant les applications plus flexibles et faciles à faire évoluer.
+
 
 
 
